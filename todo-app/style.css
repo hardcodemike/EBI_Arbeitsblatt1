@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width:60%;
+    min-width: 320px;
+    margin:0 auto;
+}
+
+header {
+    border-radius: 10px;
+    background:#eee;
+    padding:10px;
+}
+
+section div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section div td{
+    flex-basis: 80%;
+    margin-top: 1%;
+}
+
+section div button{
+    flex-basis: 10%;
+    margin: 1% 0;
+}
+
+section div + div {
+    border-top: 1px solid #ccc;
+}
